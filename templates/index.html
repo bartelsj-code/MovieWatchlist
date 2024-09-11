@@ -1,5 +1,11 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>{% block title %} Welcome to FlaskBlog {% endblock %}</h1>
+<h1>{% block title %}My Movies{% endblock %}</h1>
+    {% for movie in movies %}
+        <a href="{{ url_for('movie', movie_id=movie['id']) }}">
+            <h2>{{ movie['title'] }} ({{movie['year']}})</h2>
+        </a>
+        <hr>
+    {% endfor %}
 {% endblock %}

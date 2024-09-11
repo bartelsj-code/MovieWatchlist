@@ -1,0 +1,20 @@
+Pages:
+Watchlist
+Watched List
+Upcoming Movies
+Movie Specific Pages
+
+
+
+Table Columns:
+Title
+Year
+Watched?
+Watchlist?
+WatchPriority
+Director
+NotableCast
+Rating x/10
+Comments
+
+Letterboxd Link
